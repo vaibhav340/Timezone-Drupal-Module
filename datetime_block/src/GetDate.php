@@ -27,13 +27,13 @@ class GetDate {
 	* @param $timezone
 	*   Timezone for date.
 	*/
-	public function  getDate($timezone = ''){
+	public function  getDate($timezone = '') {
 		if (!empty($timezone)) {
 			return $this->dateFormatter->format(time(), 'custom', 'jS F  Y - g:i a', $timezone);
 		}
 		else {
 			return date('jS F  Y - g:i a');
 		}
- }	
+	 }	
 
 }
