@@ -1,0 +1,19 @@
+<?php
+
+/**
+* @file to create theme to display block
+*/
+
+/**
+ * Implements hook_theme().
+ */
+function datetime_block_theme() {
+  return [
+    'datetime_block' => [
+      'variables' => [
+        'data' => [],
+      ],
+    ],
+  ];
+}
+

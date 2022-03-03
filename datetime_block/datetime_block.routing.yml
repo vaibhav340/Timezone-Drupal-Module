@@ -1,0 +1,7 @@
+datetime_block.admin_settings:
+  path: '/admin/config/datetime_block'
+  defaults:
+    _form: '\Drupal\datetime_block\Form\TimeZoneConfigForm'
+    _title: 'Time Zone configuration Form'
+  requirements:
+    _permission: 'administer site configuration'

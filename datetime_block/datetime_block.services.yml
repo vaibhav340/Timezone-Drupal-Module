@@ -1,0 +1,4 @@
+services:
+ datetime_block.get_datetime:
+   class: Drupal\datetime_block\GetDate
+   arguments: ['@date.formatter']

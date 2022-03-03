@@ -1,0 +1,15 @@
+{#
+/**
+ * @file
+ * Block theme implementation for the Date TIme block.
+ *
+ * Uses unordered list markup in both compact and extended modes.
+ *
+ * Available variables:
+ * - data : Data to display.
+ */
+#}
+
+{% for key,value in data %}
+  <strong>{{ key }}:</strong> {{ value }}<br>
+{% endfor%}
