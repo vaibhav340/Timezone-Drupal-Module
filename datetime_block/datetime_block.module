@@ -1,8 +1,8 @@
 <?php
 
 /**
-* @file to create theme to display block
-*/
+ * @file to create theme to display block
+ */
 
 /**
  * Implements hook_theme().
